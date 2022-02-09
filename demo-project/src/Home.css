@@ -1,0 +1,69 @@
+
+
+.container {
+    transform: translateY(100px);
+    max-width: 600px;
+    margin: 2rem auto;
+    min-width: 400px;
+    position: absolute;
+
+}
+.guess {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    display: flex;
+    position: absolute;
+    transform: translateY(550px);
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.counter p {
+    font-size: 40px;
+    visibility: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.letter {
+    border: 2px solid black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 4px;
+    height: 80px;
+    width: 80px;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.letter span {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letter-correct {
+    background-color: rgb(93, 167, 93);
+    color: white;
+}
+
+.letter-inWord {
+    background-color: rgb(180, 180, 64);
+    color: white;
+}
+
+.letter-wrong {
+    background-color: rgb(134, 134, 134);
+    color: white;
+}
+
+.letter-blank {
+    background-color: white;
+}
+
