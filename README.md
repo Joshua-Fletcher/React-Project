@@ -1,1 +1,1 @@
-# React-Project
+# React Wordle Clone Project
